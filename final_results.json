@@ -1,0 +1,1772 @@
+[
+  {
+    "version": 1,
+    "n": 3,
+    "d": 2,
+    "k": 2,
+    "total_runtime_seconds": 3.079976886510849e-05,
+    "resumed_from_checkpoint": false,
+    "columns": [
+      0,
+      1,
+      2
+    ],
+    "columns_bitstrings": [
+      "00",
+      "01",
+      "10"
+    ],
+    "detector_connections": [
+      {
+        "bulb": 1,
+        "codeword": "00",
+        "detectors": []
+      },
+      {
+        "bulb": 2,
+        "codeword": "01",
+        "detectors": [
+          2
+        ]
+      },
+      {
+        "bulb": 3,
+        "codeword": "10",
+        "detectors": [
+          1
+        ]
+      }
+    ],
+    "written_at_epoch": 1780409531.9511752,
+    "subset_outputs": [
+      {
+        "subset": [
+          1,
+          2
+        ],
+        "output": "01"
+      },
+      {
+        "subset": [
+          1,
+          3
+        ],
+        "output": "10"
+      },
+      {
+        "subset": [
+          2,
+          3
+        ],
+        "output": "11"
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "n": 4,
+    "d": 2,
+    "k": 3,
+    "total_runtime_seconds": 2.5399960577487946e-05,
+    "resumed_from_checkpoint": false,
+    "columns": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "columns_bitstrings": [
+      "000",
+      "001",
+      "010",
+      "100"
+    ],
+    "detector_connections": [
+      {
+        "bulb": 1,
+        "codeword": "000",
+        "detectors": []
+      },
+      {
+        "bulb": 2,
+        "codeword": "001",
+        "detectors": [
+          3
+        ]
+      },
+      {
+        "bulb": 3,
+        "codeword": "010",
+        "detectors": [
+          2
+        ]
+      },
+      {
+        "bulb": 4,
+        "codeword": "100",
+        "detectors": [
+          1
+        ]
+      }
+    ],
+    "written_at_epoch": 1780409531.9590046,
+    "subset_outputs": [
+      {
+        "subset": [
+          1,
+          2
+        ],
+        "output": "001"
+      },
+      {
+        "subset": [
+          1,
+          3
+        ],
+        "output": "010"
+      },
+      {
+        "subset": [
+          1,
+          4
+        ],
+        "output": "100"
+      },
+      {
+        "subset": [
+          2,
+          3
+        ],
+        "output": "011"
+      },
+      {
+        "subset": [
+          2,
+          4
+        ],
+        "output": "101"
+      },
+      {
+        "subset": [
+          3,
+          4
+        ],
+        "output": "110"
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "n": 5,
+    "d": 2,
+    "k": 4,
+    "total_runtime_seconds": 4.469975829124451e-05,
+    "resumed_from_checkpoint": false,
+    "columns": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "columns_bitstrings": [
+      "0000",
+      "0001",
+      "0010",
+      "0100",
+      "1000"
+    ],
+    "detector_connections": [
+      {
+        "bulb": 1,
+        "codeword": "0000",
+        "detectors": []
+      },
+      {
+        "bulb": 2,
+        "codeword": "0001",
+        "detectors": [
+          4
+        ]
+      },
+      {
+        "bulb": 3,
+        "codeword": "0010",
+        "detectors": [
+          3
+        ]
+      },
+      {
+        "bulb": 4,
+        "codeword": "0100",
+        "detectors": [
+          2
+        ]
+      },
+      {
+        "bulb": 5,
+        "codeword": "1000",
+        "detectors": [
+          1
+        ]
+      }
+    ],
+    "written_at_epoch": 1780409531.9655514,
+    "subset_outputs": [
+      {
+        "subset": [
+          1,
+          2
+        ],
+        "output": "0001"
+      },
+      {
+        "subset": [
+          1,
+          3
+        ],
+        "output": "0010"
+      },
+      {
+        "subset": [
+          1,
+          4
+        ],
+        "output": "0100"
+      },
+      {
+        "subset": [
+          1,
+          5
+        ],
+        "output": "1000"
+      },
+      {
+        "subset": [
+          2,
+          3
+        ],
+        "output": "0011"
+      },
+      {
+        "subset": [
+          2,
+          4
+        ],
+        "output": "0101"
+      },
+      {
+        "subset": [
+          2,
+          5
+        ],
+        "output": "1001"
+      },
+      {
+        "subset": [
+          3,
+          4
+        ],
+        "output": "0110"
+      },
+      {
+        "subset": [
+          3,
+          5
+        ],
+        "output": "1010"
+      },
+      {
+        "subset": [
+          4,
+          5
+        ],
+        "output": "1100"
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "n": 6,
+    "d": 2,
+    "k": 5,
+    "total_runtime_seconds": 0.001011599786579609,
+    "resumed_from_checkpoint": false,
+    "columns": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "columns_bitstrings": [
+      "00000",
+      "00001",
+      "00010",
+      "00100",
+      "01000",
+      "10000"
+    ],
+    "detector_connections": [
+      {
+        "bulb": 1,
+        "codeword": "00000",
+        "detectors": []
+      },
+      {
+        "bulb": 2,
+        "codeword": "00001",
+        "detectors": [
+          5
+        ]
+      },
+      {
+        "bulb": 3,
+        "codeword": "00010",
+        "detectors": [
+          4
+        ]
+      },
+      {
+        "bulb": 4,
+        "codeword": "00100",
+        "detectors": [
+          3
+        ]
+      },
+      {
+        "bulb": 5,
+        "codeword": "01000",
+        "detectors": [
+          2
+        ]
+      },
+      {
+        "bulb": 6,
+        "codeword": "10000",
+        "detectors": [
+          1
+        ]
+      }
+    ],
+    "written_at_epoch": 1780409531.973786,
+    "subset_outputs": [
+      {
+        "subset": [
+          1,
+          2
+        ],
+        "output": "00001"
+      },
+      {
+        "subset": [
+          1,
+          3
+        ],
+        "output": "00010"
+      },
+      {
+        "subset": [
+          1,
+          4
+        ],
+        "output": "00100"
+      },
+      {
+        "subset": [
+          1,
+          5
+        ],
+        "output": "01000"
+      },
+      {
+        "subset": [
+          1,
+          6
+        ],
+        "output": "10000"
+      },
+      {
+        "subset": [
+          2,
+          3
+        ],
+        "output": "00011"
+      },
+      {
+        "subset": [
+          2,
+          4
+        ],
+        "output": "00101"
+      },
+      {
+        "subset": [
+          2,
+          5
+        ],
+        "output": "01001"
+      },
+      {
+        "subset": [
+          2,
+          6
+        ],
+        "output": "10001"
+      },
+      {
+        "subset": [
+          3,
+          4
+        ],
+        "output": "00110"
+      },
+      {
+        "subset": [
+          3,
+          5
+        ],
+        "output": "01010"
+      },
+      {
+        "subset": [
+          3,
+          6
+        ],
+        "output": "10010"
+      },
+      {
+        "subset": [
+          4,
+          5
+        ],
+        "output": "01100"
+      },
+      {
+        "subset": [
+          4,
+          6
+        ],
+        "output": "10100"
+      },
+      {
+        "subset": [
+          5,
+          6
+        ],
+        "output": "11000"
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "n": 7,
+    "d": 2,
+    "k": 6,
+    "total_runtime_seconds": 0.0252427002415061,
+    "resumed_from_checkpoint": false,
+    "columns": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "columns_bitstrings": [
+      "000000",
+      "000001",
+      "000010",
+      "000100",
+      "001000",
+      "010000",
+      "100000"
+    ],
+    "detector_connections": [
+      {
+        "bulb": 1,
+        "codeword": "000000",
+        "detectors": []
+      },
+      {
+        "bulb": 2,
+        "codeword": "000001",
+        "detectors": [
+          6
+        ]
+      },
+      {
+        "bulb": 3,
+        "codeword": "000010",
+        "detectors": [
+          5
+        ]
+      },
+      {
+        "bulb": 4,
+        "codeword": "000100",
+        "detectors": [
+          4
+        ]
+      },
+      {
+        "bulb": 5,
+        "codeword": "001000",
+        "detectors": [
+          3
+        ]
+      },
+      {
+        "bulb": 6,
+        "codeword": "010000",
+        "detectors": [
+          2
+        ]
+      },
+      {
+        "bulb": 7,
+        "codeword": "100000",
+        "detectors": [
+          1
+        ]
+      }
+    ],
+    "written_at_epoch": 1780409532.0069456,
+    "subset_outputs": [
+      {
+        "subset": [
+          1,
+          2
+        ],
+        "output": "000001"
+      },
+      {
+        "subset": [
+          1,
+          3
+        ],
+        "output": "000010"
+      },
+      {
+        "subset": [
+          1,
+          4
+        ],
+        "output": "000100"
+      },
+      {
+        "subset": [
+          1,
+          5
+        ],
+        "output": "001000"
+      },
+      {
+        "subset": [
+          1,
+          6
+        ],
+        "output": "010000"
+      },
+      {
+        "subset": [
+          1,
+          7
+        ],
+        "output": "100000"
+      },
+      {
+        "subset": [
+          2,
+          3
+        ],
+        "output": "000011"
+      },
+      {
+        "subset": [
+          2,
+          4
+        ],
+        "output": "000101"
+      },
+      {
+        "subset": [
+          2,
+          5
+        ],
+        "output": "001001"
+      },
+      {
+        "subset": [
+          2,
+          6
+        ],
+        "output": "010001"
+      },
+      {
+        "subset": [
+          2,
+          7
+        ],
+        "output": "100001"
+      },
+      {
+        "subset": [
+          3,
+          4
+        ],
+        "output": "000110"
+      },
+      {
+        "subset": [
+          3,
+          5
+        ],
+        "output": "001010"
+      },
+      {
+        "subset": [
+          3,
+          6
+        ],
+        "output": "010010"
+      },
+      {
+        "subset": [
+          3,
+          7
+        ],
+        "output": "100010"
+      },
+      {
+        "subset": [
+          4,
+          5
+        ],
+        "output": "001100"
+      },
+      {
+        "subset": [
+          4,
+          6
+        ],
+        "output": "010100"
+      },
+      {
+        "subset": [
+          4,
+          7
+        ],
+        "output": "100100"
+      },
+      {
+        "subset": [
+          5,
+          6
+        ],
+        "output": "011000"
+      },
+      {
+        "subset": [
+          5,
+          7
+        ],
+        "output": "101000"
+      },
+      {
+        "subset": [
+          6,
+          7
+        ],
+        "output": "110000"
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "n": 8,
+    "d": 2,
+    "k": 6,
+    "total_runtime_seconds": 0.12176690017804503,
+    "resumed_from_checkpoint": false,
+    "columns": [
+      0,
+      3,
+      12,
+      48,
+      21,
+      26,
+      38,
+      41
+    ],
+    "columns_bitstrings": [
+      "000000",
+      "000011",
+      "001100",
+      "110000",
+      "010101",
+      "011010",
+      "100110",
+      "101001"
+    ],
+    "detector_connections": [
+      {
+        "bulb": 1,
+        "codeword": "000000",
+        "detectors": []
+      },
+      {
+        "bulb": 2,
+        "codeword": "000011",
+        "detectors": [
+          5,
+          6
+        ]
+      },
+      {
+        "bulb": 3,
+        "codeword": "001100",
+        "detectors": [
+          3,
+          4
+        ]
+      },
+      {
+        "bulb": 4,
+        "codeword": "110000",
+        "detectors": [
+          1,
+          2
+        ]
+      },
+      {
+        "bulb": 5,
+        "codeword": "010101",
+        "detectors": [
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "bulb": 6,
+        "codeword": "011010",
+        "detectors": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "bulb": 7,
+        "codeword": "100110",
+        "detectors": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "bulb": 8,
+        "codeword": "101001",
+        "detectors": [
+          1,
+          3,
+          6
+        ]
+      }
+    ],
+    "written_at_epoch": 1780409532.1373105,
+    "subset_outputs": [
+      {
+        "subset": [
+          1,
+          2
+        ],
+        "output": "000011"
+      },
+      {
+        "subset": [
+          1,
+          3
+        ],
+        "output": "001100"
+      },
+      {
+        "subset": [
+          1,
+          4
+        ],
+        "output": "110000"
+      },
+      {
+        "subset": [
+          1,
+          5
+        ],
+        "output": "010101"
+      },
+      {
+        "subset": [
+          1,
+          6
+        ],
+        "output": "011010"
+      },
+      {
+        "subset": [
+          1,
+          7
+        ],
+        "output": "100110"
+      },
+      {
+        "subset": [
+          1,
+          8
+        ],
+        "output": "101001"
+      },
+      {
+        "subset": [
+          2,
+          3
+        ],
+        "output": "001111"
+      },
+      {
+        "subset": [
+          2,
+          4
+        ],
+        "output": "110011"
+      },
+      {
+        "subset": [
+          2,
+          5
+        ],
+        "output": "010111"
+      },
+      {
+        "subset": [
+          2,
+          6
+        ],
+        "output": "011011"
+      },
+      {
+        "subset": [
+          2,
+          7
+        ],
+        "output": "100111"
+      },
+      {
+        "subset": [
+          2,
+          8
+        ],
+        "output": "101011"
+      },
+      {
+        "subset": [
+          3,
+          4
+        ],
+        "output": "111100"
+      },
+      {
+        "subset": [
+          3,
+          5
+        ],
+        "output": "011101"
+      },
+      {
+        "subset": [
+          3,
+          6
+        ],
+        "output": "011110"
+      },
+      {
+        "subset": [
+          3,
+          7
+        ],
+        "output": "101110"
+      },
+      {
+        "subset": [
+          3,
+          8
+        ],
+        "output": "101101"
+      },
+      {
+        "subset": [
+          4,
+          5
+        ],
+        "output": "110101"
+      },
+      {
+        "subset": [
+          4,
+          6
+        ],
+        "output": "111010"
+      },
+      {
+        "subset": [
+          4,
+          7
+        ],
+        "output": "110110"
+      },
+      {
+        "subset": [
+          4,
+          8
+        ],
+        "output": "111001"
+      },
+      {
+        "subset": [
+          5,
+          6
+        ],
+        "output": "011111"
+      },
+      {
+        "subset": [
+          5,
+          7
+        ],
+        "output": "110111"
+      },
+      {
+        "subset": [
+          5,
+          8
+        ],
+        "output": "111101"
+      },
+      {
+        "subset": [
+          6,
+          7
+        ],
+        "output": "111110"
+      },
+      {
+        "subset": [
+          6,
+          8
+        ],
+        "output": "111011"
+      },
+      {
+        "subset": [
+          7,
+          8
+        ],
+        "output": "101111"
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "n": 9,
+    "d": 2,
+    "k": 7,
+    "total_runtime_seconds": 2.4668312002904713,
+    "resumed_from_checkpoint": false,
+    "columns": [
+      0,
+      1,
+      6,
+      24,
+      96,
+      42,
+      52,
+      76,
+      82
+    ],
+    "columns_bitstrings": [
+      "0000000",
+      "0000001",
+      "0000110",
+      "0011000",
+      "1100000",
+      "0101010",
+      "0110100",
+      "1001100",
+      "1010010"
+    ],
+    "detector_connections": [
+      {
+        "bulb": 1,
+        "codeword": "0000000",
+        "detectors": []
+      },
+      {
+        "bulb": 2,
+        "codeword": "0000001",
+        "detectors": [
+          7
+        ]
+      },
+      {
+        "bulb": 3,
+        "codeword": "0000110",
+        "detectors": [
+          5,
+          6
+        ]
+      },
+      {
+        "bulb": 4,
+        "codeword": "0011000",
+        "detectors": [
+          3,
+          4
+        ]
+      },
+      {
+        "bulb": 5,
+        "codeword": "1100000",
+        "detectors": [
+          1,
+          2
+        ]
+      },
+      {
+        "bulb": 6,
+        "codeword": "0101010",
+        "detectors": [
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "bulb": 7,
+        "codeword": "0110100",
+        "detectors": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "bulb": 8,
+        "codeword": "1001100",
+        "detectors": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "bulb": 9,
+        "codeword": "1010010",
+        "detectors": [
+          1,
+          3,
+          6
+        ]
+      }
+    ],
+    "written_at_epoch": 1780409534.6133006,
+    "subset_outputs": [
+      {
+        "subset": [
+          1,
+          2
+        ],
+        "output": "0000001"
+      },
+      {
+        "subset": [
+          1,
+          3
+        ],
+        "output": "0000110"
+      },
+      {
+        "subset": [
+          1,
+          4
+        ],
+        "output": "0011000"
+      },
+      {
+        "subset": [
+          1,
+          5
+        ],
+        "output": "1100000"
+      },
+      {
+        "subset": [
+          1,
+          6
+        ],
+        "output": "0101010"
+      },
+      {
+        "subset": [
+          1,
+          7
+        ],
+        "output": "0110100"
+      },
+      {
+        "subset": [
+          1,
+          8
+        ],
+        "output": "1001100"
+      },
+      {
+        "subset": [
+          1,
+          9
+        ],
+        "output": "1010010"
+      },
+      {
+        "subset": [
+          2,
+          3
+        ],
+        "output": "0000111"
+      },
+      {
+        "subset": [
+          2,
+          4
+        ],
+        "output": "0011001"
+      },
+      {
+        "subset": [
+          2,
+          5
+        ],
+        "output": "1100001"
+      },
+      {
+        "subset": [
+          2,
+          6
+        ],
+        "output": "0101011"
+      },
+      {
+        "subset": [
+          2,
+          7
+        ],
+        "output": "0110101"
+      },
+      {
+        "subset": [
+          2,
+          8
+        ],
+        "output": "1001101"
+      },
+      {
+        "subset": [
+          2,
+          9
+        ],
+        "output": "1010011"
+      },
+      {
+        "subset": [
+          3,
+          4
+        ],
+        "output": "0011110"
+      },
+      {
+        "subset": [
+          3,
+          5
+        ],
+        "output": "1100110"
+      },
+      {
+        "subset": [
+          3,
+          6
+        ],
+        "output": "0101110"
+      },
+      {
+        "subset": [
+          3,
+          7
+        ],
+        "output": "0110110"
+      },
+      {
+        "subset": [
+          3,
+          8
+        ],
+        "output": "1001110"
+      },
+      {
+        "subset": [
+          3,
+          9
+        ],
+        "output": "1010110"
+      },
+      {
+        "subset": [
+          4,
+          5
+        ],
+        "output": "1111000"
+      },
+      {
+        "subset": [
+          4,
+          6
+        ],
+        "output": "0111010"
+      },
+      {
+        "subset": [
+          4,
+          7
+        ],
+        "output": "0111100"
+      },
+      {
+        "subset": [
+          4,
+          8
+        ],
+        "output": "1011100"
+      },
+      {
+        "subset": [
+          4,
+          9
+        ],
+        "output": "1011010"
+      },
+      {
+        "subset": [
+          5,
+          6
+        ],
+        "output": "1101010"
+      },
+      {
+        "subset": [
+          5,
+          7
+        ],
+        "output": "1110100"
+      },
+      {
+        "subset": [
+          5,
+          8
+        ],
+        "output": "1101100"
+      },
+      {
+        "subset": [
+          5,
+          9
+        ],
+        "output": "1110010"
+      },
+      {
+        "subset": [
+          6,
+          7
+        ],
+        "output": "0111110"
+      },
+      {
+        "subset": [
+          6,
+          8
+        ],
+        "output": "1101110"
+      },
+      {
+        "subset": [
+          6,
+          9
+        ],
+        "output": "1111010"
+      },
+      {
+        "subset": [
+          7,
+          8
+        ],
+        "output": "1111100"
+      },
+      {
+        "subset": [
+          7,
+          9
+        ],
+        "output": "1110110"
+      },
+      {
+        "subset": [
+          8,
+          9
+        ],
+        "output": "1011110"
+      }
+    ]
+  },
+  {
+    "version": 1,
+    "n": 10,
+    "d": 2,
+    "k": 7,
+    "total_runtime_seconds": 8.934064700268209,
+    "resumed_from_checkpoint": false,
+    "columns": [
+      0,
+      3,
+      5,
+      9,
+      18,
+      36,
+      72,
+      56,
+      84,
+      98
+    ],
+    "columns_bitstrings": [
+      "0000000",
+      "0000011",
+      "0000101",
+      "0001001",
+      "0010010",
+      "0100100",
+      "1001000",
+      "0111000",
+      "1010100",
+      "1100010"
+    ],
+    "detector_connections": [
+      {
+        "bulb": 1,
+        "codeword": "0000000",
+        "detectors": []
+      },
+      {
+        "bulb": 2,
+        "codeword": "0000011",
+        "detectors": [
+          6,
+          7
+        ]
+      },
+      {
+        "bulb": 3,
+        "codeword": "0000101",
+        "detectors": [
+          5,
+          7
+        ]
+      },
+      {
+        "bulb": 4,
+        "codeword": "0001001",
+        "detectors": [
+          4,
+          7
+        ]
+      },
+      {
+        "bulb": 5,
+        "codeword": "0010010",
+        "detectors": [
+          3,
+          6
+        ]
+      },
+      {
+        "bulb": 6,
+        "codeword": "0100100",
+        "detectors": [
+          2,
+          5
+        ]
+      },
+      {
+        "bulb": 7,
+        "codeword": "1001000",
+        "detectors": [
+          1,
+          4
+        ]
+      },
+      {
+        "bulb": 8,
+        "codeword": "0111000",
+        "detectors": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "bulb": 9,
+        "codeword": "1010100",
+        "detectors": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "bulb": 10,
+        "codeword": "1100010",
+        "detectors": [
+          1,
+          2,
+          6
+        ]
+      }
+    ],
+    "written_at_epoch": 1780409543.5593143,
+    "subset_outputs": [
+      {
+        "subset": [
+          1,
+          2
+        ],
+        "output": "0000011"
+      },
+      {
+        "subset": [
+          1,
+          3
+        ],
+        "output": "0000101"
+      },
+      {
+        "subset": [
+          1,
+          4
+        ],
+        "output": "0001001"
+      },
+      {
+        "subset": [
+          1,
+          5
+        ],
+        "output": "0010010"
+      },
+      {
+        "subset": [
+          1,
+          6
+        ],
+        "output": "0100100"
+      },
+      {
+        "subset": [
+          1,
+          7
+        ],
+        "output": "1001000"
+      },
+      {
+        "subset": [
+          1,
+          8
+        ],
+        "output": "0111000"
+      },
+      {
+        "subset": [
+          1,
+          9
+        ],
+        "output": "1010100"
+      },
+      {
+        "subset": [
+          1,
+          10
+        ],
+        "output": "1100010"
+      },
+      {
+        "subset": [
+          2,
+          3
+        ],
+        "output": "0000111"
+      },
+      {
+        "subset": [
+          2,
+          4
+        ],
+        "output": "0001011"
+      },
+      {
+        "subset": [
+          2,
+          5
+        ],
+        "output": "0010011"
+      },
+      {
+        "subset": [
+          2,
+          6
+        ],
+        "output": "0100111"
+      },
+      {
+        "subset": [
+          2,
+          7
+        ],
+        "output": "1001011"
+      },
+      {
+        "subset": [
+          2,
+          8
+        ],
+        "output": "0111011"
+      },
+      {
+        "subset": [
+          2,
+          9
+        ],
+        "output": "1010111"
+      },
+      {
+        "subset": [
+          2,
+          10
+        ],
+        "output": "1100011"
+      },
+      {
+        "subset": [
+          3,
+          4
+        ],
+        "output": "0001101"
+      },
+      {
+        "subset": [
+          3,
+          5
+        ],
+        "output": "0010111"
+      },
+      {
+        "subset": [
+          3,
+          6
+        ],
+        "output": "0100101"
+      },
+      {
+        "subset": [
+          3,
+          7
+        ],
+        "output": "1001101"
+      },
+      {
+        "subset": [
+          3,
+          8
+        ],
+        "output": "0111101"
+      },
+      {
+        "subset": [
+          3,
+          9
+        ],
+        "output": "1010101"
+      },
+      {
+        "subset": [
+          3,
+          10
+        ],
+        "output": "1100111"
+      },
+      {
+        "subset": [
+          4,
+          5
+        ],
+        "output": "0011011"
+      },
+      {
+        "subset": [
+          4,
+          6
+        ],
+        "output": "0101101"
+      },
+      {
+        "subset": [
+          4,
+          7
+        ],
+        "output": "1001001"
+      },
+      {
+        "subset": [
+          4,
+          8
+        ],
+        "output": "0111001"
+      },
+      {
+        "subset": [
+          4,
+          9
+        ],
+        "output": "1011101"
+      },
+      {
+        "subset": [
+          4,
+          10
+        ],
+        "output": "1101011"
+      },
+      {
+        "subset": [
+          5,
+          6
+        ],
+        "output": "0110110"
+      },
+      {
+        "subset": [
+          5,
+          7
+        ],
+        "output": "1011010"
+      },
+      {
+        "subset": [
+          5,
+          8
+        ],
+        "output": "0111010"
+      },
+      {
+        "subset": [
+          5,
+          9
+        ],
+        "output": "1010110"
+      },
+      {
+        "subset": [
+          5,
+          10
+        ],
+        "output": "1110010"
+      },
+      {
+        "subset": [
+          6,
+          7
+        ],
+        "output": "1101100"
+      },
+      {
+        "subset": [
+          6,
+          8
+        ],
+        "output": "0111100"
+      },
+      {
+        "subset": [
+          6,
+          9
+        ],
+        "output": "1110100"
+      },
+      {
+        "subset": [
+          6,
+          10
+        ],
+        "output": "1100110"
+      },
+      {
+        "subset": [
+          7,
+          8
+        ],
+        "output": "1111000"
+      },
+      {
+        "subset": [
+          7,
+          9
+        ],
+        "output": "1011100"
+      },
+      {
+        "subset": [
+          7,
+          10
+        ],
+        "output": "1101010"
+      },
+      {
+        "subset": [
+          8,
+          9
+        ],
+        "output": "1111100"
+      },
+      {
+        "subset": [
+          8,
+          10
+        ],
+        "output": "1111010"
+      },
+      {
+        "subset": [
+          9,
+          10
+        ],
+        "output": "1110110"
+      }
+    ]
+  }
+]
